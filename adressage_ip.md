@@ -27,6 +27,6 @@ pour le reseaux 172.16.1.0/24 et pour faire le decoupage asymetrique, il faut fa
 |        | Adresse réseau | Adresse de broadcast | Adresse de debut de plage | Adresse de fin de ligne |
 | :-: | :------------: | :------------------: | :------: | :-----------: |
 | pôle informatique |172.16.1.0/26|172.16.1.63|172.16.0.1|172.16.0.62|
-| pole Dévelopement |172.16.1.64/26|172.16.1.80|172.16.1.65|172.16.1.79|
-| Pole administratif |172.16.1.81/26|172.16.1.113|172.16.1.115|172.16.1.112|
-| Pole technicien |172.16.1.114/26|172.16.1.146|172.16.1.115|172.16.1.145|
+| pole Dévelopement |172.16.1.64/28|172.16.1.80|172.16.1.65|172.16.1.79|
+| Pole administratif |172.16.1.81/27|172.16.1.113|172.16.1.115|172.16.1.112|
+| Pole technicien |172.16.1.114/27|172.16.1.146|172.16.1.115|172.16.1.145|
