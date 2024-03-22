@@ -18,11 +18,10 @@ le calcul:
 ## le decoupage assymetrique
 
 pour le reseaux 172.16.1.0/24 et pour faire le decoupage asymetrique, il faut faire le decoupage pour chaque section
-- pour le pole informatique il nous faut 50 equipements 2^6 -2 = 64 - 2 = 62 ip possibles
-- pour le pole developement il nous faut 12 equipements 2^4 - 2 = 16 - 2 = 14 ip disponible
-- pour le pole administratif il nous faut 20 equipements 2^5 - 2 = 32 - 2 = 30 ip disponible
-- pour le pole technicien il nous faut 15 equipements 2^5 - 2 =32 - 2 = 30 ip disponible
-- Pour le masque on est toujours en /26
+- pour le pole informatique il nous faut 50 equipements 2^6 -2 = 64 - 2 = 62 ip possibles /26
+- pour le pole developement il nous faut 12 equipements 2^4 - 2 = 16 - 2 = 14 ip disponible /28
+- pour le pole administratif il nous faut 20 equipements 2^5 - 2 = 32 - 2 = 30 ip disponible /27
+- pour le pole technicien il nous faut 15 equipements 2^5 - 2 =32 - 2 = 30 ip disponible /27
 
 |        | Adresse réseau | Adresse de broadcast | Adresse de debut de plage | Adresse de fin de ligne |
 | :-: | :------------: | :------------------: | :------: | :-----------: |
